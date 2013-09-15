@@ -1,0 +1,47 @@
+#uzaklab_map{
+	position: relative;
+	z-index: 5;
+	border: solid thin #ddd;
+}
+
+#map-canvas, #map_canvas {
+	width: 100%;
+	height: 300px;
+}
+
+#panel {
+	padding: 20px;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+#panel #panel_left{
+	float: left;
+	width: 50%;
+}
+
+#panel #panel_right{
+	float:right;
+	width: 50%;
+	text-align: right;
+}
+
+#panel #panel_right #panel_result{
+
+}
+
+#panel #panel_right #panel_result h4{
+	margin: 0;
+	padding:0;
+}
+
+#panel #panel_right #panel_result .price{
+	display: block;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+#panel #panel_right #panel_result .time{
+	display: block;
+	font-size: 14px;
+}
